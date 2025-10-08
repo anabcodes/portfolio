@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin 'tailwind-scrollbar' {
+    nocompatible: true;
+}
+
+body{
+    background-color: #F2F2F2;
+}
