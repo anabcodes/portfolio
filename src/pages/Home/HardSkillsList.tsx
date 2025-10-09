@@ -2,34 +2,32 @@ function HardSkillsList(){
 
     const skills = [
         {
-        title: "React",
-        subtitle: "Front-end",
-        description: "Desenvolvimento de interfaces modernas, responsivas e performáticas."
+            title: "Desenvolvimento Front-end",
+            description: "No estágio, criei interfaces ricas, responsivas e centradas no usuário, com componentização avançada, gerenciamento de estado, performance otimizada e integração com APIs. Também implementei testes unitários e de integração usando bibliotecas do React, garantindo qualidade e confiabilidade do código. (Tecnologias: React, HTML, CSS, Tailwind, JavaScript/TypeScript, Jest, React Testing Library)"
         },
         {
-        title: "Node.js",
-        subtitle: "Back-end",
-        description: "Criação de APIs, integração com bancos de dados e lógica de servidor."
+            title: "Desenvolvimento Back-end",
+            description: "Desenvolvi projetos pessoais com back-end completo, criando APIs RESTful escaláveis, implementando lógica de negócios, autenticação e autorização seguras, definindo DTOs e gerenciando dados com eficiência, aplicando boas práticas de arquitetura e manutenção. (Tecnologias: Node.js, Express.js, Fastify, Prisma, Sequelize)"
         },
         {
-        title: "TypeScript",
-        subtitle: "Tipagem",
-        description: "Escrita de código mais seguro e escalável com tipagem estática."
+            title: "Computação em Nuvem (AWS)",
+            description: "Com certificação AWS Certified Cloud Practitioner, apliquei conceitos de nuvem no estágio, entendendo escalabilidade, elasticidade, responsabilidade compartilhada e arquitetura AWS, incluindo regiões, zonas de disponibilidade e edge locations."
         },
         {
-        title: "TypeScript",
-        subtitle: "Tipagem",
-        description: "Escrita de código mais seguro e escalável com tipagem estática."
+            title: "Banco de Dados",
+            description: "Em projetos pessoais, modelei e normalizei dados relacionais, criei consultas eficientes, índices e transações para garantir integridade, consistência e performance. (Tecnologias: PostgreSQL, SQLite, MariaDB, MySQL)"
         },
         {
-        title: "TypeScript",
-        subtitle: "Tipagem",
-        description: "Escrita de código mais seguro e escalável com tipagem estática."
+            title: "UI/UX",
+            description: "Atuei na prática em projetos universitários, participando de todas as etapas do UX: pesquisa, personas, prototipagem e testes com usuários, além do design de interfaces intuitivas e responsivas, sempre alinhando necessidades do usuário com implementação front-end. (Ferramentas: Figma)"
         },
         {
-        title: "TypeScript",
-        subtitle: "Tipagem",
-        description: "Escrita de código mais seguro e escalável com tipagem estática."
+            title: "Descoberta de Produto",
+            description: "No projeto de extensão da universidade, participei da descoberta de produto aplicando Lean Inception, benchmarking, validação de hipóteses e prototipagem rápida, garantindo que as soluções desenvolvidas entregassem valor real aos usuários. (Ferramentas: Miro, prototipagem rápida, Lean Inception)"
+        },
+        {
+            title: "Metodologias Ágeis",
+            description: "Atuei em projetos e no estágio em ambientes que aplicavam Scrum e Kanban, participando de sprints, planning, daily stand-ups e retrospectives, colaborando em entregas contínuas e alinhamento entre equipes multidisciplinares. (Ferramentas: Jira, Trello)"
         },
     ];
 
@@ -41,11 +39,10 @@ function HardSkillsList(){
                 {skills.map((skill, index) => (
                     <div
                         key={index}
-                        className="pl-10"
+                        className="px-10"
                         style={{ direction: "ltr" }}
                     >
                         <h3 className="text-xl font-bold mb-1">{skill.title}</h3>
-                        <h4 className="text-md text-gray-500 mb-3">{skill.subtitle}</h4>
                         <p className="text-gray-700 text-sm">{skill.description}</p>
                     </div>
                 ))}

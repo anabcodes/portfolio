@@ -3,10 +3,10 @@ import ContentSection from "../../layouts/ContentSection";
 import { FaPlay } from "react-icons/fa";
 
 const videos = [
-  { src: "assets/softskills/teste.mp4", descricao: "Este é o vídeo 1 sobre Soft Skills" },
-  { src: "assets/softskills/teste.mp4", descricao: "Este é o vídeo 2 sobre Soft Skills" },
-  { src: "assets/softskills/teste.mp4", descricao: "Este é o vídeo 3 sobre Soft Skills" },
-  { src: "assets/softskills/teste.mp4", descricao: "Este é o vídeo 4 sobre Soft Skills" },
+  { src: "assets/softskills/teste.mp4", descricao: "Liderança que prioriza, ouve e estimula o melhor de cada pessoa." },
+  { src: "assets/softskills/teste.mp4", descricao: "Comunicação clara que conecta e envolve pessoas e ideias." },
+  { src: "assets/softskills/teste.mp4", descricao: "Organização que mantém processos claros e eficientes." },
+  { src: "assets/softskills/teste.mp4", descricao: "Visão multidisciplinar com conhecimento em tecnologia, design e produto." },
 ];
 
 const rotations = [-3, 2, -5, 3];

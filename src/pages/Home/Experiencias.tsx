@@ -15,27 +15,10 @@ function Experiencias() {
               <h3 className="text-2xl md:text-3xl font-medium">Compass UOL</h3>
               <div className="flex flex-col gap-1">
                 <div className="flex flex-col gap-1">
-                  <p className="font-medium">Cargo X</p>
-                  <p className="text-neutral-500 text-[13px]">Período</p>
+                  <p className="font-medium">Estagiária de desenvolvimento front-end</p>
+                  <p className="text-neutral-500 text-[13px]">Abr 2025 – Set 2025</p>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Accusamus similique, voluptate culpa nulla iusto corrupti
-                    distinctio illo obcaecati illum ipsa inventore alias
-                    suscipit, sapiente eaque perspiciatis rerum laboriosam
-                    soluta ducimus!
-                  </p>
-                </div>
-              </div>
-              <div className="flex flex-col gap-1">
-                <div className="flex flex-col gap-1">
-                  <p className="font-medium">Cargo X</p>
-                  <p className="text-neutral-500 text-[13px]">Período</p>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Accusamus similique, voluptate culpa nulla iusto corrupti
-                    distinctio illo obcaecati illum ipsa inventore alias
-                    suscipit, sapiente eaque perspiciatis rerum laboriosam
-                    soluta ducimus!
+                    Atuei no desenvolvimento de uma aplicação web responsiva e de alta performance usando React com TypeScript. Implementei gerenciamento de estado global com Redux, validação de formulários com React Hook Form e Zod, e integração com APIs RESTful para persistência e dinamismo de dados.
                   </p>
                 </div>
               </div>
@@ -52,27 +35,37 @@ function Experiencias() {
               <h3 className="text-2xl md:text-3xl font-medium">Mega Júnior</h3>
               <div className="flex flex-col gap-1">
                 <div className="flex flex-col gap-1">
-                  <p className="font-medium">Cargo X</p>
-                  <p className="text-neutral-500 text-[13px]">Período</p>
+                  <p className="font-medium">Diretora de Gestão de Pessoas e Vice-presidente</p>
+                  <p className="text-neutral-500 text-[13px]">Fev 2025 – Atual</p>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Accusamus similique, voluptate culpa nulla iusto corrupti
-                    distinctio illo obcaecati illum ipsa inventore alias
-                    suscipit, sapiente eaque perspiciatis rerum laboriosam
-                    soluta ducimus!
+                    Fui responsável pela reestruturação das diretorias da empresa, com quase 40 membros, documentando cargos e criando processos eficientes. Conduzi processo seletivo com mais de 100 candidaturas, lidero reuniões gerais mensais e traço estratégias para manter um clima organizacional saudável, estimulando o crescimento da empresa e o desenvolvimento profissional dos membros.
                   </p>
                 </div>
               </div>
               <div className="flex flex-col gap-1">
                 <div className="flex flex-col gap-1">
-                  <p className="font-medium">Cargo X</p>
-                  <p className="text-neutral-500 text-[13px]">Período</p>
+                  <p className="font-medium">Diretora de Marketing</p>
+                  <p className="text-neutral-500 text-[13px]">Nov 2024 – Fev 2025</p>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Accusamus similique, voluptate culpa nulla iusto corrupti
-                    distinctio illo obcaecati illum ipsa inventore alias
-                    suscipit, sapiente eaque perspiciatis rerum laboriosam
-                    soluta ducimus!
+                    Desenvolvi uma nova identidade visual da empresa, alinhando propósito e marca, aumentando visibilidade e seriedade. Criei documentações e padrões de design ainda utilizados pela equipe e elaborei o calendário editorial, gerenciando diretamente uma equipe de 5 membros.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col gap-1">
+                <div className="flex flex-col gap-1">
+                  <p className="font-medium">Gerente de Marketing</p>
+                  <p className="text-neutral-500 text-[13px]">Set 2024 – Nov 2024</p>
+                  <p>
+                    Liderei a equipe de designers e organizei o calendário editorial, mantendo consistência e qualidade das entregas.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col gap-1">
+                <div className="flex flex-col gap-1">
+                  <p className="font-medium">Desenvolvedora Back-End Trainee</p>
+                  <p className="text-neutral-500 text-[13px]">Jul 2024 – Set 2024</p>
+                  <p>
+                    Ingressei como desenvolvedora back-end, desenvolvendo durante o processo seletivo uma API RESTful com Node.js.
                   </p>
                 </div>
               </div>
