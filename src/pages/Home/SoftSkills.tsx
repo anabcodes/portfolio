@@ -3,10 +3,10 @@ import ContentSection from "../../layouts/ContentSection";
 import { FaPlay } from "react-icons/fa";
 
 const videos = [
-  { src: "assets/softskills/teste.mp4", descricao: "Liderança que prioriza, ouve e estimula o melhor de cada pessoa." },
-  { src: "assets/softskills/teste.mp4", descricao: "Comunicação clara que conecta e envolve pessoas e ideias." },
-  { src: "assets/softskills/teste.mp4", descricao: "Organização que mantém processos claros e eficientes." },
-  { src: "assets/softskills/teste.mp4", descricao: "Visão multidisciplinar com conhecimento em tecnologia, design e produto." },
+  { src: "assets/softskills/reuniao-megajr.mp4", descricao: "Liderança que prioriza, ouve e estimula." },
+  { src: "assets/softskills/apresentacao-pantanal-dev.mp4", descricao: "Comunicação clara." },
+  { src: "assets/softskills/reuniao-diretoria.mp4", descricao: "Organização que mantém processos claros e eficientes." },
+  { src: "assets/softskills/prototipagem.mp4", descricao: "Visão multidisciplinar com conhecimento em tecnologia, design e produto." },
 ];
 
 const rotations = [-3, 2, -5, 3];
@@ -86,7 +86,7 @@ function SoftSkills() {
             {/* Balão de descrição que segue o cursor */}
             {!pausedVideos[index] && (
               <div
-                className="absolute border-[1px] px-8 py-2 bg-[#D2FFB0] text-black text-sm font-mono rounded-full pointer-events-none whitespace-nowrap z-50 group-hover:z-50"
+                className="absolute border-[1px] px-8 py-2 bg-[#D2FFB0] text-black text-[9px] md:text-sm font-mono rounded-full pointer-events-none whitespace-nowrap z-50 group-hover:z-50"
                 style={{
                   right: - cursorPos[index].x + 30,
                   top: cursorPos[index].y + 20,
