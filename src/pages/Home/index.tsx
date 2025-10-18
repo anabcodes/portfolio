@@ -9,9 +9,9 @@ function Home(){
         <>
         <section>
             <HeroSection/>
-            <SoftSkills/>
-            <HardSkills/>
             <FormacaoAcademica/>
+            <HardSkills/>
+            <SoftSkills/>
             <Experiencias/>
         </section>
         </>
