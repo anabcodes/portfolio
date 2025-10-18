@@ -54,8 +54,8 @@ function SoftSkills() {
 
   return (
     <ContentSection
-      title="SoftSkills"
-      subtitle="Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+      title="Soft Skills"
+      subtitle="Mais que código: habilidades que movem projetos"
     >
       <div className="grid grid-cols-[repeat(auto-fit,minmax(16rem,1fr))] place-items-center mt-7 gap-6">
         {videos.map((video, index) => (

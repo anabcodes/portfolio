@@ -5,7 +5,7 @@ import "@splidejs/react-splide/css";
 import TextoDestaque from "../../components/ui/TextoDestaque";
 import type { ImagemProjeto, ProjetoProps } from "../../types/projeto";
 
-function Projeto({dadosImagens, titulo, descricao} : ProjetoProps) {
+function Projeto({dadosImagens, titulo, descricao, textoDestaque} : ProjetoProps) {
 
   const mainRef = useRef<SplideInstance | null>(null);
   const thumbsRef = useRef<SplideInstance | null>(null);
@@ -23,7 +23,7 @@ function Projeto({dadosImagens, titulo, descricao} : ProjetoProps) {
         <p className="w-full md:w-2/3">
           {descricao}
         </p>
-        <TextoDestaque texto="Texto pequeno bem aqui" />
+        <TextoDestaque texto={textoDestaque} />
       </div>
       <div className="w-full max-w-4xl mx-auto">
         {/* Slider principal */}
@@ -44,7 +44,7 @@ function Projeto({dadosImagens, titulo, descricao} : ProjetoProps) {
                 <img
                   src={item.src}
                   alt={`Slide ${index + 1}`}
-                  className="w-full object-cover h-full"
+                  className="w-full object-cover h-full object-top"
                 />
                 <div className="group-hover:opacity-0 opacity-100 transition-opacity duration-300 absolute bg-green-100/70 backdrop-blur-lg border-black border-t-[1px] flex flex-col justify-center  p-4 bottom-0 w-full ">
                   <h4 className="text-black text-lg font-semibold">

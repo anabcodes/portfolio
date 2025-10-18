@@ -5,7 +5,7 @@ function FormacaoAcademica() {
     <>
       <ContentSection
         title="Formação Acadêmica"
-        subtitle="Sistemas de Informação na Universidade Federal de Mato Grosso do Sul, cursando o 6º de 8 semestres"
+        subtitle="Minha formação vai além da sala de aula: participei de projetos práticos que aplicaram a teoria em situações reais, desenvolvendo soluções e habilidades que complementam o aprendizado acadêmico."
       >
         <section className="flex flex-col gap-5">
           <div className="grid grid-cols-1 grid-rows-6 md:grid-cols-3 md:grid-rows-2 gap-4">

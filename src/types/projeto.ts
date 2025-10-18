@@ -9,4 +9,5 @@ export interface ProjetoProps {
   titulo: string;
   descricao: string;
   linkParaProjeto?: string;
+  textoDestaque: string;
 }
